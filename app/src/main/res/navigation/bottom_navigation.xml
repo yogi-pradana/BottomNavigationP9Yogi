@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/berandaFragment">
+
+    <fragment
+        android:id="@+id/berandaFragment"
+        android:name="com.p3b1yogi.bottomnavigationp9yogi.BerandaFragment"
+        android:label="fragment_beranda"
+        tools:layout="@layout/fragment_beranda" />
+    <fragment
+        android:id="@+id/mutasiFragment"
+        android:name="com.p3b1yogi.bottomnavigationp9yogi.MutasiFragment"
+        android:label="fragment_mutasi"
+        tools:layout="@layout/fragment_mutasi" />
+    <fragment
+        android:id="@+id/inboxFragment"
+        android:name="com.p3b1yogi.bottomnavigationp9yogi.InboxFragment"
+        android:label="fragment_inbox"
+        tools:layout="@layout/fragment_inbox" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.p3b1yogi.bottomnavigationp9yogi.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
